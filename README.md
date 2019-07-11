@@ -68,16 +68,3 @@ reponse = _connector.GetMovements(request);
 |----------------|-------------------------------|-----------------------------|
 |bank_id         |`bank_id`                      |Ignore                       |
 |view_id         |`view_id`                      |Ignore                       |
-
-## Diagrams
-
-```mermaid
-graph LR
-A[A Client] -- configRequest --> B[ B ApiBankConnector]
-B -- response --> A
-B --> DB((BindApi))
-DB --> B
-B --> EB((ValoresApi))
-EB --> B
-
-```
