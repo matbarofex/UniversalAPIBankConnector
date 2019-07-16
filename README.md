@@ -68,3 +68,13 @@ reponse = _connector.GetMovements(request);
 |----------------|-------------------------------|-----------------------------|
 |bank_id         |`bank_id`                      |Ignore                       |
 |view_id         |`view_id`                      |Ignore                       |
+
+## Acknowledgements
+
+Development of this software was driven by
+[Sistemas Esco](https://www.sistemasesco.com.ar/) as part of an Open Source
+initiative of [Grupo Rofex](https://www.rofex.com.ar/).
+
+#### Author/Maintainer
+
+  - [Hernan Sfoggia](https://github.com/hsfoggia)
